@@ -1,0 +1,15 @@
+htmlint
+=======
+
+I've decided to make an HTML linter.
+
+This project was created because there was a very
+large subset of linting features I felt like wouldn't fit into crest.
+I was initially going to add linting issues as warnings, but then realized
+warnings suck, and then realized they don't fit the crest philosophy. This is why I
+created htmlint, to fix my HTML and add to the crappy static-page toolchain that will
+some day grow larger than even I.
+
+My ultimate vision for this tool is for it to be very editor friendly.
+The last thing any human being on earth wants is an HTML toolchain, we have enough
+problems as it is. My "field test" will be integrating it into my vim environment.
